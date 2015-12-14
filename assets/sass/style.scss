@@ -24,7 +24,9 @@ body,html {
   h1 {
     font-weight: 100;
     text-align: center;
-    margin-top: 40vh;
+    margin-top: 20vh;
+    @media(min-width:768px){
+      margin-top: 40vh;}    
     font-size: 6em;
   }
   h2 {
